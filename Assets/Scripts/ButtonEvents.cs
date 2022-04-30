@@ -5,7 +5,20 @@ using UnityEngine.UI;
 
 public class ButtonEvents : MonoBehaviour
 {
-    public Transform playerRoot, irAJugar_Position;
+
+    #region Limit FPS
+
+    public int targetFrameRate = 30;
+ 
+     private void Start()
+     {
+         QualitySettings.vSyncCount = 0;
+         Application.targetFrameRate = targetFrameRate;
+     }
+
+    #endregion
+    
+    public Transform playerRoot, irAJugar_Position, irAPartes_Position;
     public Animator animatorPlayer;
     public GameObject panelPrincipal;
 
@@ -15,6 +28,7 @@ public class ButtonEvents : MonoBehaviour
    }
 
    public void IrAPartes(){
-
+       playerRoot.transform.position = irAPartes_Position.transform.position;
+       panelPrincipal.SetActive(false);
    }
 }

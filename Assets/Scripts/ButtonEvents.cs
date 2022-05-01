@@ -17,9 +17,8 @@ public class ButtonEvents : MonoBehaviour
      }
 
     #endregion
-    
+
     public Transform playerRoot, irAJugar_Position, irAPartes_Position;
-    public Animator animatorPlayer;
     public GameObject panelPrincipal;
 
    public void IrAJugar(){

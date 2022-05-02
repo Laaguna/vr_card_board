@@ -45,6 +45,8 @@ public class ObjectController : MonoBehaviour
     private Renderer _myRenderer;
     private Vector3 _startingPosition;
 
+
+    public GameObject playerHand;
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>
@@ -87,6 +89,7 @@ public class ObjectController : MonoBehaviour
     public void OnPointerEnter()
     {
         SetMaterial(true);
+        this.gameObject.transform.position = playerHand.transform.position;
     }
 
     /// <summary>
@@ -103,7 +106,8 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerClick()
     {
-        TeleportRandomly();
+        //TeleportRandomly();
+        this.gameObject.transform.position = playerHand.transform.position;
     }
 
     /// <summary>

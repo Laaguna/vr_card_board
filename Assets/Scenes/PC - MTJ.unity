@@ -146,7 +146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107939883}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1284.0118, y: 3870.617, z: 9.487579}
+  m_LocalPosition: {x: -1268.7, y: 3909.7, z: -20.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 722352081}
@@ -2186,9 +2186,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serializeObjects:
-  - {fileID: 11400000, guid: 20c7678f4e6a9304b83bb3899124e8d3, type: 2}
+  - {fileID: 11400000, guid: 92ea25c241da0904a9e0da58ce114b5b, type: 2}
+  - {fileID: 11400000, guid: b79e46cd0937cbc4eb2d358a2d1c254d, type: 2}
+  - {fileID: 11400000, guid: de38b6e62b7b7fa40b8993a1f111452a, type: 2}
+  - {fileID: 11400000, guid: 223bb0d4c7c6f6c48ac73ab5b66ed359, type: 2}
   - {fileID: 11400000, guid: c57b95a55ad8df847a29bede0a1b31ff, type: 2}
-  - {fileID: 11400000, guid: e992879e081230840b2e1eb819987c65, type: 2}
+  - {fileID: 11400000, guid: 0f4dbcb0e492b7948a69f605eb710a5e, type: 2}
+  - {fileID: 11400000, guid: aa8c0796f34aa0342a84f181335f1619, type: 2}
+  - {fileID: 11400000, guid: 32153543125bb454684b153d11a072b2, type: 2}
   modelDisplay: {fileID: 1019143468}
 --- !u!1 &1845317097
 GameObject:

@@ -34,7 +34,7 @@ public class Drop : MonoBehaviour
     /// </summary>
     public void Start()
     {
-        playerHandChild = ParentGameObjectt.transform.GetChild(0).gameObject;
+        
     }
 
     

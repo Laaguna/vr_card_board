@@ -18,8 +18,8 @@ public class ButtonEvents : MonoBehaviour
 
     #endregion
 
-    public Transform playerRoot, irAJugar_Position, irAPartes_Position;
-    public GameObject panelPrincipal;
+    public Transform playerRoot, irAJugar_Position;
+    public GameObject panelPrincipal, panelInventario;
 
    public void IrAJugar(){
        playerRoot.transform.position = irAJugar_Position.transform.position;
@@ -27,7 +27,7 @@ public class ButtonEvents : MonoBehaviour
    }
 
    public void IrAPartes(){
-       playerRoot.transform.position = irAPartes_Position.transform.position;
        panelPrincipal.SetActive(false);
+       panelInventario.SetActive(true);
    }
 }
